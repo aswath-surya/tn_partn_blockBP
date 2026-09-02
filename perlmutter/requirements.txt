@@ -1,0 +1,11 @@
+# Pinned to what the laptop venv runs (2026-08-25). mpi4py and cupy are installed separately
+# in setup_perlmutter.sh (they must be built/selected against Cray MPICH / the CUDA module).
+numpy==2.4.6
+scipy==1.18.0
+networkx==3.6.1
+autoray==0.9.1
+quimb==1.14.0
+cotengra==0.8.2
+kahypar==1.3.7
+matplotlib==3.11.1
+tqdm==4.70.0

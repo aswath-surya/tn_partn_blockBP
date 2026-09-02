@@ -1,0 +1,25 @@
+# internal docs (project brief and direction notes stay local)
+instructions.md
+README.md
+
+# bulky inputs/outputs
+refs/
+logs/
+logs_perlmutter/
+results/
+results_perlmutter/
+*.pkl
+__pycache__/
+.DS_Store
+
+# keep the figures the BLOCKBP readme embeds
+!results/
+results/*
+!results/blockbp_generic.gif
+!results/blockbp_generic_mps.gif
+!results/blockbp_circuit_norm.gif
+!results/blockbp_circuit_norm_mps.gif
+!results_perlmutter/
+results_perlmutter/*
+!results_perlmutter/fig_blockbp_pareto.png
+!results_perlmutter/fig_blockbp_pareto_comm.png
